@@ -1,0 +1,5 @@
+<%= form_for @note do |f| %>
+  <p> Title:   <%= f.text_field :title %> </p>
+  <p> Content: <%= f.text_area :content %> </p>
+               <%= f.button :CreateNote %>
+  <% end %>
