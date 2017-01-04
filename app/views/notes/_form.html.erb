@@ -1,5 +1,16 @@
-<%= form_for @note do |f| %>
-  <p> Title:   <%= f.text_field :title %> </p>
-  <p> Content: <%= f.text_area :content %> </p>
-               <%= f.button :CreateNote %>
+<div class="container">
+  <%= form_for @note do |f| %>
+  <div class="form-inputs">
+    <div class="form-group">
+        <p> Title:   <%= f.text_field :title %> </p>
+    </div>
+
+    <div class="form-group">
+        <p> Content: <%= f.text_area :content %> </p>
+    </div>
+
+    <div class="form-group">
+        <%= f.button :CreateNote, class: "btn btn-primary" %>
+    </div>
   <% end %>
+</div>

@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+#bootstrap sass
+gem 'bootstrap-sass', '~> 3.3.6'
+#Bootswatch gem
+gem 'bootswatch-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

@@ -1,0 +1,16 @@
+<nav class="navbar-default">
+  <% if user_signed_in? %>
+  <p class="nav_buttons"><%= link_to "New Note", new_note_path %></p>
+  <p class="nav_buttons"><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></p>
+  <% else %>
+  <p class="nav_buttons"><%= link_to "Log In", new_user_session_path %></p>
+  <% end %>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <%= image_tag "4.png", alt:"NotePad", class:"image" %>
+      <a class="navbar-brand" href="/">
+      </a>
+    </div>
+  </div>
+</nav>
+<nav>
