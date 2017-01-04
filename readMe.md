@@ -3,8 +3,9 @@
 * In a world of technologies the Online NotePad is an Ruby on Rails application
 * It allows the user to  keep all the thoughts, ideas and things that have to be done in a simple form.
 
-![](https://raw.githubusercontent.com/nadia28/project2/master/images/screen1.png)
-![](https://raw.githubusercontent.com/nadia28/project2/master/images/screen2.png)
+![](https://raw.githubusercontent.com/nadia28/project2/master/app/assets/images/screen1.png)
+
+![](https://raw.githubusercontent.com/nadia28/project2/master/app/assets/images/screen2.png)
 
 ##User Stories:
 * As a user, when I open the application I can see the welcome page that gives me options to sign up or log in.
