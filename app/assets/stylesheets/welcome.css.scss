@@ -7,7 +7,7 @@ body {
 }
 
 #banner {
-  background-image: url("/assets/images1.jpg");
+  background-image: asset-url("images1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -30,7 +30,7 @@ body {
 }
 
 #callouts {
-  background-image: url("/assets/imgres.jpg");
+  background-image: asset-url("imgres.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
